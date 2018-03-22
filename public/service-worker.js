@@ -6,7 +6,18 @@ this.addEventListener('install', event => {
         '/js/scripts.js',
         '/css/styles.css',
         '/jquery/jquery.js',
-        '/assets/*'
+        '/assets/brush1.svg',
+        '/assets/brush2.svg',
+        '/assets/brush3.svg',
+        '/assets/brush4.svg',
+        '/assets/brush5.svg',
+        '/assets/lock.svg',
+        '/assets/paint1.svg',
+        '/assets/paint2.svg',
+        '/assets/paint3.svg',
+        '/assets/paint4.svg',
+        '/assets/paint5.svg',
+        '/assets/unlock.svg'
       ])
     })
   );
