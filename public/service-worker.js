@@ -5,7 +5,6 @@ this.addEventListener('install', event => {
         '/',
         '/js/scripts.js',
         '/css/styles.css',
-        '/assets',
         '/jquery/jquery.js'
       ])
     })
@@ -16,7 +15,7 @@ this.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request).then(response => {
       return response || fetch(event.request);
-    }).catch(error => console.log(error.message))
+    })
   );
 });
 
