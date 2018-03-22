@@ -97,7 +97,7 @@ const appendProjects = async () => {
 }
 
 const getProjectHTML = (allProjects, allPalettes) => {
-  return allProjects.map( project => {
+  return allProjects && allProjects.map( project => {
     const palettes = allPalettes.filter( palette => palette.project_id === project.id );
     const palettesToPrepend = () => palettes.length ? createPaletteHTML(palettes).join('') : '<p>no saved palettes</p>';
     return (`
