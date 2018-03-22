@@ -5,7 +5,8 @@ this.addEventListener('install', event => {
         '/',
         '/js/scripts.js',
         '/css/styles.css',
-        '/assets'
+        '/assets',
+        '/jquery/jquery.js'
       ])
     })
   );
